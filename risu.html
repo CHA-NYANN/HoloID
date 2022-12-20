@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ayunda Risu</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="32x32" href="#home">
+	<!-- CSS Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<!-- CSS External -->
+	<link rel="stylesheet" href="style/style_risu.css">
+</head>
+
+<body id="home">
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+		<div class="container">
+			<a class="navbar-brand fw-bold fs-4" href="index.html"><span class="text-primary"><img src="assets/holoidl.png"
+				width="20%"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<ul class="navbar-nav fw-semibold">
+						<li class="nav-item">
+							<a class="nav-link text-uppercase fs-6" href="index.html">Home</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle active" aria-current="page" href="#talent"
+								id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								TALENT
+							</a>
+							<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+								<li><a class="dropdown-item" href="index.html">See All</a></li>
+								<li><a class="dropdown-item" href="risu.html">Ayunda Risu</a></li>
+								<li><a class="dropdown-item" href="yopi.html">Airani Iofifteen</a></li>
+								<li><a class="dropdown-item" href="moona.html">Moona Hoshinova</a></li>
+								<li><a class="dropdown-item" href="reine.html">Pavolia Reine</a></li>
+								<li><a class="dropdown-item" href="anya.html">Anya Melfissa</a></li>
+								<li><a class="dropdown-item" href="ollie.html">Kureiji Ollie</a></li>
+								<li><a class="dropdown-item" href="zeta.html">Vestia Zeta</a></li>
+								<li><a class="dropdown-item" href="kaela.html">Kaela Kovalskia</a></li>
+								<li><a class="dropdown-item" href="kobo.html">Kobo Kanaeru</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-uppercase fs-6" href="#ayunda risu">Profil</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-uppercase fs-6" href="#streaming">Streaming</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-uppercase fs-6" href="#song">Song</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- carousel -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+				aria-label="Slide 4"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="assets/ARL.jpg" class="d-block w-100" alt="VTuber">
+			</div>
+			<div class="carousel-item">
+				<img src="assets/ARHD1.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Trivia</h5>
+					<p>Fakta-fakta menarik terkait VTuber HoloID, Ayunda Risu
+					</p>
+					<p><a href="#trivia" class="btn btn-primary mt-3">More Info</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="assets/ARHD2.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Original Song & Cover</h5>
+					<p>Kumpulan <i>Original Song</i> dan Cover Ayunda Risu</p>
+					<p><a href="#song" class="btn btn-primary mt-3">More Info</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="assets/area15-2.jfif" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Area 15</h5>
+					<p>Generasi Pertama Hololive Indonesia yang debut pada April 2020</p>
+					<p><a href="https://virtualyoutuber.fandom.com/id/wiki/Hololive#hololive_ID_Generasi_Ke-1" target="_blank" class="btn btn-primary mt-3">More Info</a></p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+		data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+		data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	</button>
+	</div>
+	<br><br><br><br>
+	<!-- ayunda risu -->
+	<div id="ayunda risu" class="ayunda risu p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-5">
+					<div class="ayunda risu">
+						<img src="assets/ARFB2.png" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+					<div class="text-uppercase fw-bold fs-2 text justify-content p-5">
+						<center>
+							<p style="color:#d64224">Ayunda Risu
+								<br>アユンダ・リス</p>
+						</center>
+					</div>
+					<div class="ayunda risu-text justify-content-">
+						<center>
+							<h4 style="color:#d64224">Hewwrroo everyone ~!!
+								<br>Purupuru ganbari Risu ~!</h4></b>
+							<br>
+							<p>"Seorang gadis tupai dari hutan ajaib.
+								Risu tersesat di dunia manusia, tetapi karena keadaan tertentu, Risu akhirnya tinggal di
+								rumah seorang
+								kakak
+								perempuan yang baik hati.
+								Untuk membalas budi sang kakak, Risu memutuskan untuk menjadi VTuber.
+								Risu selalu bertingkah seperti tupai pada umumnya. Risu suka melakukan lelucon halus pada
+								orang, pemalu
+								dengan orang baru, dan suka menggoda penontonnya. Tawanya juga merupakan salah satu ciri
+								khasnya."</p>
+							<p>"Streamnya Risu sehat, aneh dan lancang pada saat bersamaan. Risu akan membuatmu merasa
+								seperti sedang
+								berinteraksi dengan teman masa kecilmu."</p><BR>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/ozANadM_Y8U"
+								title="Debut Ayunda Risu" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-meRisu; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+
+	<!-- talent -->
+	<div id="talent" class="talent p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-3">
+					<div class="ayunda risu">
+						<br><br><img src="assets/ARFB3.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+					<div class="ayunda risu-text justify-content-">
+						<center>
+							<table border="1" cellpadding="10">
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Karakter</b></td>
+									<td>Tupaia Splendidula</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Nama Panggilan</b></td>
+									<td>Risu<br>
+										Ayunda<br>
+										Alter Risu<br>
+										Tupaisen<br>
+										Okakoro Child (dari Inugami Korone)</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Tanggal Debut</b></td>
+									<td>10 April 2020 (YouTube)</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Ilustrator</b></td>
+									<td>Yatomi</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Jenis Kelamin</b></td>
+									<td>Perempuan</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Umur</b></td>
+									<td>17 Tahun</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Tanggal Lahir</b></td>
+									<td>15 Januari</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Tinggi</b></td>
+									<td>154 cm</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Zodiak</b></td>
+									<td>Capricorn</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Hashtag</b></td>
+									<td>#Ayunda_Risu - General<br>
+										#Risu_Live - Stream talk<br>
+										#Risuners - Fans<br>
+										#iRISUstration - Fanart<br>
+										#Risu_meme - Memes<br>
+										#RisuMemeReview - Meme review<br>
+										#CongRISUlation - Celebrations<br>
+										#Risuggestion - Suggestions<br>
+										#RisUpdate - Important updates</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Media Sosial</b></td>
+									<td>Youtube: Ayunda Risu Ch. hololive-ID<br>
+										Twitter: @ayunda_risu<br>
+										Instagram: @ayunda_risu</td>
+								</tr>
+								<tr>
+									<td style=background-color:#d64224;color:azure><b>Emoji</b></td>
+									<td>🐿️</td>
+								</tr>
+							</table>
+						</center>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-3">
+					<div class="ayunda risu">
+						<br><br><img src="assets/ARNC.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="accordion accordion-flush" id="accordionFlushExample">
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="flush-headingOne">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+					data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+					<b style="color: #d64224">Perbedaan Suara Risu dan Ayunda</b>
+				</button>
+			</h2>
+			<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+				data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body">Ayunda Risu melakukan “debut kedua” menggunakan kostum barunya pada perayaan 100 ribu subscribernya
+					sekitar
+					September 2020. Dalam streaming itu, Risu menjelaskan tentang perbedaan antara dua suaranya, yang Risu
+					sebut
+					“Ayunda” dan “Risu”. “Ayunda” adalah penyihir (ditunjukkan dengan suara bernada rendah), sedangkan
+					“Risu”
+					adalah tupai (ditunjukkan dengan suara bernada tinggi).</div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="flush-headingTwo">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+					data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+					<b style="color: #d64224">Kepribadian</b>
+				</button>
+			</h2>
+			<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+				data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body">Risu memiliki kepribadian yang humoris, berenergi tinggi, dan sangat ramah. Interaksi Risu dengan Moona
+					dan
+					Iofi, anggota hololive lainnya dan siapa pun pada umumnya, telah memberinya reputasi sebagai orang yang
+					sangat manis, baik hati, dan menarik.</div>
+			</div>
+		</div>
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="flush-headingThree">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+					data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+					<b style="color: #d64224">Maskot dan Penggemar</b>
+				</button>
+			</h2>
+			<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+				data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body"><center>
+				<img src="assets/AYM.jfif" width="300" alt="Gambar_Riscot" title="Maskot Risu, Riscot"></center><br>
+				<p>Maskotnya adalah tupai merah muda yang memakai topi, kalung dan jepit rambut yang mirip dengan miliknya
+					bernama "Riscot", yang digambar oleh Aragami Oga.<br>Penggemarnya secara resmi disebut "Risuners" <i>(berdasarkan kata "Listeners")</i>, atau "Prisuners"
+					<i>(berdasarkan kata "Prisoners")</i> untuk anggota.</div>
+			</div>
+		</div>
+		<div id="trivia" class="accordion-item">
+			<h2 class="accordion-header" id="flush-headingFour">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+					data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+					<b style="color: #d64224">Trivia</b>
+				</button>
+			</h2>
+			<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+				data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body">
+					<ul>
+					<li>Nama asli Risu "Tupaia Splendidula" Risusumsikan sebagai nama ilmiah dari spesiesnya, Tupai merah. Bisa
+						juga
+						merupakan campuran bahasa dan kata dari bahasa Indonesia ("tupai") dan bahasa Inggris ("splendid" yang
+						berarti "indah"), yang sepenuhnya berarti "Tupai Indah".</li>
+					<li>Selain bahasa Indonesia, Risu juga bisa berbahasa Inggris dan Jepang.</li>
+					<li>Dalam streamnya, Risu memiliki dua kepribaRisun, yaitu sebagai Tupai "Risu" dan Kakak Perempuan "Ayunda".
+					</li>
+					<li>Risu memiliki jangkauan vokal yang sangat luas, bahkan untuk seorang penyanyi. Atas permintaan penggemar,
+						Risu
+						mampu menggambarkan berbagai identitas melalui sok suara, bahkan peniruan yang meyakinkan dari anggota
+						hololive lainnya. Penggemar Risu sering menyebut identitas yang ditiru melalui suara ini sebagai "Risu
+						DLC's".</li>
+					<li>Karena rentang vokalnya yang lebar, gaya tawanya seperti peluit dan mengatakan bahwa Risu adalah penggemar
+						berat Inugami Korone, ada lelucon bahwa Risu adalah anak dari Korone dan Nekomata Okayu.</li>
+					<li>Risu juga akrab dengan Zen Gunawan, Vtuber laki-laki Indonesia dari MAHAPANCA, dan sudah beberapa kali
+						berkolaborasi.</li>
+					<li>Karena aktingnya yang berkualitas ini sebagai penguatan bakat menyanyinya, banyak penggemar bercanda
+						bahwa
+						Risu telah membantu memulihkan mimpi Motoaki Tanigo (juga dikenal luas dengan julukan "YAGOO") untuk
+						membuat
+						perusahaan idola.</li><br>
+					<img src="assets/area15-2.jfif" width="600" alt="Gambar_Gen_1_HoloID" title="VTuber Gen 1 HoloID"><br><br>
+					<li>Risu tinggal serumah bersama dengan anggota hololive Generasi Pertama Indonesia, Moona Hoshinova dan
+						Airani
+						Iofifteen saat awal debutnya.</li>
+					<li>Risu takut pada anjing (sifat yang memang pantas untuk gadis tupai).</li>
+					<li>Stream debutnya menampilkan contoh di mana anjing tetangganya tiba-tiba mulai menggonggong dengan keras,
+						membuat Risu sangat gugup.</li>
+					<li>Meskipun takut pada anjing, Risu menyebutkan dirinya sebagai penggemar berat Korone dan mengatakan ingin
+						berkolaborasi dengannya.</li>
+					<li>Tanggal 7 Desember Risu berkolaborasi dengan Korone untuk pertama kalinya, bermain Phasmaphobia bersama.
+					</li><br>
+					<img src="assets/kkc.jpg" width="600" alt="Gambar_Kirakira_Collab" title="Kirakira Collab"><br><br>
+					<li>Risu bagian dari grup bernama "Kirakira Collab" (キ ラ キ ラ コ ラ ボ), bersama dengan Airani Iofifteen,
+						Arurandeisu
+						dan Aragami Oga. Mereka melakukan streaming game bersama sebulan sekali.</li>
+					<li>Risu memiliki kepekaan arah yang buruk, ditunjukkan dalam aliran DOOM pertamanya.</li>
+					<li>Fanart tag #GambaRisu berasal dari kata "Gambar + Risu" dari bahasa Indonesia yang secara harfiah berarti
+						Gambar / Gambar Risu</li>
+					<li>Dimulai pada 1 November 2020 dan berakhir pada 30 November 2020, Risu telah memposting video pendek di
+						salurannya untuk memperingati "Nonstop Nut November" (parodi dari meme internet "No Nut November"), di
+						mana
+						Risu memuji kebaikan berbagai kacang dan betapa Risu, seorang gadis tupai, mencintai mereka.</li>
+					<li>Setelah "Nonstop Nut November" berakhir pada 30 November 2020, Risu segera memulai DDD, atau "Devour
+						Donut
+						December", keesokan harinya pada tanggal 1 Desember, dan membicarakan tentang jenis, rasa, atau hal-hal
+						sepele yang berbeda tentang donat setiap hari.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- streaming -->
+	<div id="streaming" class="streaming p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-uppercase text-center fw-bold fs-2 p-5">
+						<p style="color:#d64224">streaming</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card mt-4 shadow">
+						<iframe width="100%" height="235" src="https://www.youtube.com/embed/tUZws5uZPa0"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+						<div class="card-body">
+							<h5 class="streaming-title">NEW COSTUME REVEAL : Ready, Set, 1 2 3 !!</h5>
+							<p class="streaming-subtitle">HEWRRROOOO EVERYONE !!!<br><br>
+								TODAY IS THE 1ST DAY of the New Costume Showcase Relay of #AREA15 !!! ✨✨✨✨<br>
+								<br>
+								I'll be the first one to show it today and don't forget to use #holoIDNewCostume and
+								#Ayunda_Risu tag for hyping it up !!<br>
+								<br>
+								25 Oct 2022 - 8 PM (GMT+7)<br>
+								<br>
+								<a href="https://youtu.be/tUZws5uZPa0" target="_blank">https://youtu.be/tUZws5uZPa0</a>
+							</p><br><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card mt-4 shadow">
+						<iframe width="100%" height="235" src="https://www.youtube.com/embed/VxnwBm49egM"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+						<div class="card-body">
+							<h5 class="streaming-title">3D Showcase Ayunda Risu</h5>
+							<p class="streaming-subtitle">🐿️ RISU'S 3D SHOWCASE TODAY🐿️
+								<br>
+								HEWRRROOO RISUNERSS !!! ✨✨✨<br><br>
+								Do you remember the squirrel that debuted 2 years ago ??<br>
+								<BR>
+								This is her now !!!<br>
+								Feel old yet ?? 👀<br>
+								<br>
+								Today, September 18th<br>
+								20:00 WIB / 22:00 JST<br>
+								<BR>
+								▼Let yourself bewitched here▼<br>
+								<a href="https://youtu.be/VxnwBm49egM" target="_blank">https://youtu.be/VxnwBm49egM</a>
+							</p><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card mt-4 shadow">
+						<iframe width="100%" height="235" src="https://www.youtube.com/embed/ozANadM_Y8U"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+						<div class="card-body">
+							<h5 class="streaming-title">【Hololive Indonesia First Debut】Can Squirrel be an Idol too ?
+							</h5>
+							<p class="streaming-subtitle">
+								Saksikanlah tupai imut yang memulai debut pertamanya ~!<br>
+								Bersiaplah untuk tersihir oleh keimutannya ~<br><br>
+								Cute fluffy squirrel is doing her first live ~!<br>
+								Prepare yourself to get charmed by her fluffiness ~<br>
+								<br>
+								Hello, I'm Risu(リス)🐿 from Hololive ID!<br>
+								I'm a squirrel from magical forest who becomes a Vtuber!<br><br>
+								【Ayunda Risu】<br>
+								Channel:
+								<a href="https://t.co/3AI0d4Vkbo?amp=1"
+									target="_blank">https://t.co/3AI0d4Vkbo?amp=1</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- song -->
+	<div id="song" class="song p-5">
+		<div class="container text-center">
+			<div class="row">
+				<div class="text-uppercase text-center fw-bold fs-2 p-5">
+					<p style="color:#d64224">song</p>
+				</div>
+			</div>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/IGviVpVE1fA"
+				title="Original Song Risu, ALiCE&u" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/meO4tAeMgHs"
+				title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+				clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/QO_RNBWxx94"
+				title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/uw9SUSvWBN0"
+				title="Cover Risu, Snow Halation" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+	</div>
+	</div>
+
+	<!-- footer -->
+	<footer class="footer bg-dark p-3">
+		<div class="container">
+			<div class="row text-light">
+				<div class="col-6 text-lg-start text-sm-start">
+					<a href="https://instagram.com/cleo_cpha?igshid=YmMyMTA2M2Y=" target="_blank"><img
+							src="assets/ig2.png" width="5%"></a>
+					<a href="https://www.facebook.com/profile.php?id=100024491056656" target="_blank"><img
+							src="assets/fc.png" width="5%"></a>
+					<a href="https://youtube.com/channel/UC4g7WrnIqIK1W-EwGQ5wmDQ" target="_blank"><img
+							src="assets/tw2.png" width="5%"></a>
+				</div>
+				<div class="col-6 text-lg-end text-sm-end">
+					Contact Me
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JS Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>

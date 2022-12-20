@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kureiji Ollie</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="#home">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style/style_ollie.css">
+</head>
+
+<body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="index.html"><span class="text-primary"><img
+                        src="assets/holoidl.png" width="20%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" aria-current="page" href="#talent"
+                                id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                TALENT
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="index.html">See All</a></li>
+                                <li><a class="dropdown-item" href="risu.html">Ayunda Risu</a></li>
+                                <li><a class="dropdown-item" href="yopi.html">Airani Iofifteen</a></li>
+                                <li><a class="dropdown-item" href="moona.html">Moona Hoshinova</a></li>
+                                <li><a class="dropdown-item" href="reine.html">Pavolia Reine</a></li>
+                                <li><a class="dropdown-item" href="anya.html">Anya Melfissa</a></li>
+                                <li><a class="dropdown-item" href="ollie.html">Kureiji Ollie</a></li>
+                                <li><a class="dropdown-item" href="zeta.html">Vestia Zeta</a></li>
+                                <li><a class="dropdown-item" href="kaela.html">Kaela Kovalskia</a></li>
+                                <li><a class="dropdown-item" href="kobo.html">Kobo Kanaeru</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="#Kureiji Ollie">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="#streaming">Streaming</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="#song">Song</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/KOL.png" class="d-block w-100" alt="VTuber">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/KOHD2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Trivia</h5>
+                    <p>Fakta-fakta menarik terkait VTuber HoloID, Kureiji Ollie
+                    </p>
+                    <p><a href="#trivia" class="btn btn-primary mt-3">More Info</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/KOHD1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Original Song & Cover</h5>
+                    <p>Kumpulan <i>Original Song</i> dan Cover Kureiji Ollie</p>
+                    <p><a href="#song" class="btn btn-primary mt-3">More Info</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/HoloroHD1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Holoro</h5>
+                    <p>Generasi Kedua Hololive Indonesia yang debut pada Desember 2020</p>
+                    <p><a href= "https://virtualyoutuber.fandom.com/id/wiki/Hololive#hololive_ID_Generasi_Ke-2" target="_blank"  class="btn btn-primary mt-3">More Info</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <br><br><br><br>
+    <!-- Kureiji Ollie -->
+    <div id="Kureiji Ollie" class="Kureiji Ollie p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="Kureiji Ollie">
+                        <br><br> <img src="assets/KOFB.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+                    <div class="text-uppercase fw-bold fs-2 text justify-content p-5">
+                        <center>
+                            <p style="color:#e81a1a">Kureiji Ollie
+                                <br>クレイジー・オリー</p>
+                        </center>
+                    </div>
+                    <div class="Kureiji Ollie-text justify-content-">
+                        <center>
+                            <h4 style="color:#e81a1a">ZOMBANWA!! SUPER KAWAII ZOMBIE IDOL!<BR>
+                                KU KU KU KUREIJI OLLIE DESU~!!</h4>
+                            <br>
+                            <p>"Zombie gadis SMA bangkit dari kuburnya. Dia pulang ke rumah dengan mengandalkan ingatan
+                                yang disimpan
+                                sejak
+                                dia masih hidup.
+                                Setelah tiba, dia menemukan rumahnya telah berubah menjadi toko ramen! Jadi, untuk
+                                merebut kembali
+                                rumahnya,
+                                dia
+                                memutuskan untuk menjadi VTuber.
+                                Ollie memiliki kecenderungan yang sangat besar untuk berteriak. Mohon turunkan volume
+                                selama
+                                streaming-nya."</p>
+                            <p>"Ollie masih harus banyak belajar untuk menjadi seorang idola, dan fakta bahwa Ollie
+                                adalah zombie
+                                membuatnya
+                                lebih sulit! Ollie akan melakukan yang terbaik! Mohon tetap dukung Ollie agar Ollie bisa
+                                meraih
+                                mimpinya!"
+                            </p><BR>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RfnJ3zFgUuU"
+                                title="Debut Kureiji Ollie" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- talent -->
+    <div id="talent" class="talent p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="Kureiji Ollie">
+                        <br><br><br><br><img src="assets/KOFB2.jpg" alt="" class="img-fluid">
+
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+                    <div class="Kureiji Ollie-text justify-content-">
+                        <center>
+                            <table border="1" cellpadding="10">
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Karakter</b></td>
+                                    <td>Zombie</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Nama Panggilan</b></td>
+                                    <td>Ollie<br>
+                                        Ollie-simpai<br>
+                                        Kak Ollie<br>
+                                        Ollay (dari Kobo)</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Tanggal Debut</b></td>
+                                    <td>04 Desember 2020 (YouTube)</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Ilustrator</b></td>
+                                    <td>LAM</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Jenis Kelamin</b></td>
+                                    <td>Perempuan</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Umur</b></td>
+                                    <td>17 Tahun (saat mati)</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Tanggal Lahir</b></td>
+                                    <td>13 Oktober</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Tinggi</b></td>
+                                    <td>162 cm</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Zodiak</b></td>
+                                    <td>Libra</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Hashtag</b></td>
+                                    <td>#Kureiji_Ollie - Umum<br>
+                                        #OLLIEginal - Pembicaraan stream<br>
+                                        #graveyART - Seni penggemar<br>
+                                        #OLLInfo - Pengumuman<br>
+                                        #OLLIcin - Meme</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Media Sosial</b></td>
+                                    <td>Youtube: Kureiji Ollie Ch. hololive-ID<br>
+                                        Twitter: @kureijiollie<br>
+                                        Instagram: @kureijiollie<br>
+                                        TikTok: @oll13k</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#e81a1a;color:azure><b>Emoji</b></td>
+                                    <td>🧟‍♀️</td>
+                                </tr>
+                            </table>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="Kureiji Ollie">
+                        <br><br> <br><br><img src="assets/KOFB3.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <b style="color: #e81a1a">Hobi dan Kesukaan</b>
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    "Ollie tuh suka banget main game, nyanyi, nggambar sama ngobrol. Pokoknya semua hal-halyang
+                    menyenagkan deh! Ini mungkin agak ngagetin, tapi Ollie suka baca Webcomic sampai ludes walau
+                    sifatnya Ollie, "Kureiji"~ hehe, karena itu cukup santai. Ollie cinta banget sama VTuber dan
+                    berharap semua VTuber bisa bersinar. Ollie juga suka makan. Itulah kenapa Ollie sering ngemil di
+                    sungai~ Teehee~""
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <b style="color: #e81a1a">Penampilan</b>
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Ollie adalah zombie, tetapi lebih mirip dengan monster tambal sulam yang mengingatkan orang-orang
+                        pada Monster Frankenstein. Warna kulitnya berganti-ganti antara warna alaminya (mungkin)
+                        (abu-abu
+                        terang) dan tempat di mana daging pengganti dijahit, yang berwarna abu-abu gelap. Rambut gaya
+                        sanggul Ollie berwarna abu-abu dan merah, dan mata kiri kanannya berwarna merah dan memiliki
+                        pupil
+                        berbentuk berlian. Mata kirinya tampak seperti tombol kuning. Telinga kanannya ditindik oleh apa
+                        yang tampak seperti kaleng soda pop-top.</p>
+                    <p>Sesuatu yang menusuk kepala Ollie adalah pedang berwarna hitam dan perak, yang sepertinya bisa
+                        dia
+                        keluarkan tanpa menyebabkan cedera lebih lanjut. Udin menjuntai dari gagang pedang seperti jimat
+                        gantungan kunci.</p>
+                    <p>Ollie berusia 17 tahun saat dia meninggal dan mengklaim itu adalah usia permanennya karena dia
+                        meninggal.</p>
+                    <p>Dia mengenakan kostum robek, yang dia klaim dimakan tikus ketika dia kembali untuk mengambilnya,
+                        dan
+                        sepatu yang dia punya tidak cocok karena keduanya "terlalu manis" untuk dipilih.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <b style="color: #e81a1a">Kepribadian</b>
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Ollie sangat hiperaktif dan itu mempengaruhi terhadap debutnya yang agak memprihatinkan. Setelah
+                        menghabiskan satu menit untuk mempersiapkan diri untuk tampil di layar, ketika akhirnya dia
+                        melakukannya, dia mulai meraung keras dan panik. Sesuai dengan statusnya sebagai zombie,
+                        kadang-kadang anggota badan Ollie terlepas dari tubuhnya, lengannya jatuh setidaknya dua kali
+                        dalam
+                        lima menit pertama debutnya.</p>
+                    <p>Dia tampaknya sangat sadar akan internet dan budaya meme, karena dia sering menggunakan bahasa
+                        gaul
+                        internet pada stream debutnya, seperti "dope", "dank" dan "pog", memahami arti dan
+                        penggunaannya.
+                        Dia juga penggemar berat meme dan berharap penggemarnya membuat meme darinya.</p>
+                    <P>Dia juga cenderung secara acak menggoda gadis-gadis hololive lainnya.</P>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    <b style="color: #e81a1a">Maskot dan Penggemar</b>
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Maskotnya adalah Udin, adalah boneka beruang setengah biru dan ungu dengan "mata mati" dan
+                        jahitan
+                        yang terlihat dengan pita hitam di atasnya.</p>
+                    <center><img src="assets/udin.jpg" width="500" alt="Gambar_Udin" title="Udin, Maskot Ollie"><br>
+                    </center>
+                    <p>Penggemarnya secara resmi disebut "Zomrades". Itu adalah singkatan dari "zombie" dan "comrades"
+                        (kamerad).<br>
+                        Anggota disebut "Zomily", yang merupakan singkatan dari "zombie" dan "family" (keluarga).</p>
+                </div>
+            </div>
+        </div>
+        <div id="trivia" class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    <b style="color: #e81a1a">Trivia</b>
+                </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Hobi Ollie antara lain makan, memasak, menggambar, membaca, bermain game, dan simping. Dia
+                            menambahkan dia simp kepada banyak VTuber lainnya.</li>
+                        <li>Makanan favoritnya meliputi
+                            permen, susu stroberi, dan makanan pedas. Dia mengungkapkan dia
+                            sebenarnya tidak bisa menangani panasnya makanan pedas dengan baik, tapi tetap menyukai rasa
+                            panasnya.</li>
+                        <li>Ollie tidak menyukai hal-hal kotor. Dan meskipun dia suka makan, dia tidak akan pernah makan
+                            kopi,
+                            buah-buahan, dan terutama kubis.</li>
+                        <li>Anime favoritnya termasuk anime memasak seperti Food Wars (ini adalah favoritnya), Yumeiro
+                            Patissiere, Sweetness and Lightning), irisan kehidupan (K-On!, Miss Kobayashi's Dragon Maid)
+                            dan
+                            komedi (Nichijou, Sket Dance).</li>
+                        <li>Dia juga penggemar berat Disney.</li>
+                        <li>Game favoritnya termasuk Pokémon, Minecraft, Animal Crossing, Osu dan game yang bertemakan
+                            pesta.
+                        </li>
+                        <li>Dia sangat pandai meniru anggota hololive lainnya, seperti yang dibuktikan pada streaming
+                            debutnya.
+                            Dia meniru sekitar 15 dari mereka, termasuk 2 anggota Holostar. Dia bahkan meniru identitas
+                            YAGOO.
+                        </li>
+                        <li>Dia fasih berbahasa Indonesia, Inggris, dan Jepang, dan dapat bergantian di antara ketiganya
+                            bahkan
+                            tanpa mengambil napas.</li>
+                        <li>Sasaran pelanggan pertamanya adalah mencapai 100,000 tetapi saat dia menyebutkan tujuan itu
+                            selama
+                            streaming debutnya, dia telah mencapai ambang itu, yang membuatnya terkejut.</li>
+                        <li>Hari ulang tahun Ollie jatuh pada tanggal 13 Oktober karena bertepatan dengan Hari Zombie
+                            Dunia.
+                        </li>
+                        <li>Ollie mengatakan warna matanya berbeda ketika dia masih hidup.</li>
+                        <li>Ollie memiliki keluarga besar, yang sering menjadi topik pembicaraan selama streaming.
+                            Mereka
+                            semua
+                            menyadari status Ollie sebagai VTuber dan juga penggemar hololive. Selain orang tuanya, ia
+                            memiliki
+                            tiga saudara kandung: satu kakak laki-laki bernama Illo, satu adik laki-laki bernama Ollo,
+                            dan
+                            satu
+                            adik perempuan bernama Ellie.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- streaming -->
+    <div id="streaming" class="streaming p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-uppercase text-center fw-bold fs-2 p-5">
+                        <p style="color:#e81a1a">streaming</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-4 shadow">
+                        <iframe width="100%" height="235" src="https://www.youtube.com/embed/FwfBl3a53uk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="streaming-title">I came from another dimension!!<br>【Hololive Indonesia 2nd Gen】
+                            </h5>
+                            <p class="streaming-subtitle">【Human Alt: OLIVIA/ RP Fictional Stream】<br><br>
+                                Stream ini hanyalah pertunjukan fiksi paralel belaka.<br><br>
+                                This stream is a parallel fiction performance.<br><br>
+                                この配信はパラレルストーリーです<br><br>
+                                "Halo, perkenalkan. Nama saya Olivia. Saya bukan zombie dan saya masih hidup."<br><br>
+                                GET READY TO GET ANOTHER DIMENSION OLLIE🔥🔥<BR>
+                                <a href="https://www.youtube.com/live/FwfBl3a53uk?feature=share"
+                                    target="_blank">https://www.youtube.com/embed/FwfBl3a53uk</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-4 shadow">
+                        <iframe width="100%" height="235" src="https://www.youtube.com/embed/7oAdilOoyNc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="streaming-title">LET'S TALK ABOUT OLLIE'S DEBUT!!!!!!</h5>
+                            <p class="streaming-subtitle">振り返り - デビュー配信を話しましょう!!!!<br><br>
+                                ONE HOUR WAS SIMPLY NOT ENOUGH FOR OLLIEEEE!!!!!<br><br>
+                                OLLIE WANTS TO TALK MORE WITH
+                                ZOMRADES!!!!<br><br>
+                                Dan yang paling penting, tolong nikmati stream ini!!!!!<br><br>
+                                Most importantly, please enjoy the stream!!!<br>
+                                ストリームをお楽しみください！<br><br>
+                                <a href="https://www.youtube.com/live/7oAdilOoyNc?feature=share"
+                                    target="_blank">https://www.youtube.com/embed/7oAdilOoyNc</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-4 shadow">
+                        <iframe width="100%" height="235" src="https://www.youtube.com/embed/kzNzUK3xQto"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="streaming-title">【#holoIDNewCostume】 <br>NEW OUTFIT REVEAL!!
+                            </h5>
+                            <p class="streaming-subtitle">
+                                GLUE YOURS JAWS, YOU DON'T WANT THEM TO DROP~♡<BR><BR>
+                                OLLIE IS HERE WITH BRAND NEW CLOTHES!! NO MORE RIPPED SKIRTS~!!<BR><BR>
+
+                                ...NO IT'S NOT AN ONDEL-ONDEL<BR><BR>
+
+                                NOT IS IT OLIVIA<BR><BR>
+                                GET READY TO GET CRAZY OVER OLLIE🔥🔥<br>
+                                <a href="https://www.youtube.com/live/kzNzUK3xQto?feature=share"
+                                    target="_blank">https://www.youtube.com/embed/Tmg_zSjOTtc</a><BR><BR>
+                                AND DON'T MISS OUT ANYA'S AND REINE'S REVEAL!!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- song -->
+    <div id="song" class="song p-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="text-uppercase text-center fw-bold fs-2 p-5">
+                    <p style="color:#e81a1a">song</p>
+                </div>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZqtRc3fa_s"
+                title="Original Song Ollie, Jollie Jollie" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oLOSu6ocgUU"
+                title="Cover Ollie, Hey Kids!" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4IG4BYARwZI"
+                title="Cover Ollie, Saling Merindu" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pOsqlM_6JcI"
+                title="Cover Ollie & Astel Leda, Okochama Sensou" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer bg-dark p-3">
+        <div class="container">
+            <div class="row text-light">
+                <div class="col-6 text-lg-start text-sm-start">
+                    <a href="https://instagram.com/cleo_cpha?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                            src="assets/ig2.png" width="5%"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100024491056656" target="_blank"><img
+                            src="assets/fc.png" width="5%"></a>
+                    <a href="https://youtube.com/channel/UC4g7WrnIqIK1W-EwGQ5wmDQ" target="_blank"><img
+                            src="assets/tw2.png" width="5%"></a>
+                </div>
+                <div class="col-6 text-lg-end text-sm-end">
+                    Contact Me
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

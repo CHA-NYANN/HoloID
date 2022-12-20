@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestia Zeta</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="#home">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style/style_zeta.css">
+</head>
+
+<body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="index.html"><span class="text-primary"><img
+                        src="assets/holoidl.png" width="20%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" aria-current="page" href="#talent"
+                                id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                TALENT
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="index.html">See All</a></li>
+                                <li><a class="dropdown-item" href="risu.html">Ayunda Risu</a></li>
+                                <li><a class="dropdown-item" href="yopi.html">Airani Iofifteen</a></li>
+                                <li><a class="dropdown-item" href="moona.html">Moona Hoshinova</a></li>
+                                <li><a class="dropdown-item" href="reine.html">Pavolia Reine</a></li>
+                                <li><a class="dropdown-item" href="anya.html">Anya Melfissa</a></li>
+                                <li><a class="dropdown-item" href="ollie.html">Kureiji Ollie</a></li>
+                                <li><a class="dropdown-item" href="zeta.html">Vestia Zeta</a></li>
+                                <li><a class="dropdown-item" href="kaela.html">Kaela Kovalskia</a></li>
+                                <li><a class="dropdown-item" href="kobo.html">Kobo Kanaeru</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="#Vestia Zeta">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="#streaming">Streaming</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="#song">Song</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/VZL.jpg" class="d-block w-100" alt="VTuber">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/VZHD3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Trivia</h5>
+                    <p>Fakta-fakta menarik terkait VTuber HoloID, Vestia Zeta
+                    </p>
+                    <p><a href="#trivia" class="btn btn-primary mt-3">More Info</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/VZHD2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Original Song & Cover</h5>
+                    <p>Kumpulan <i>Original Song</i> dan Cover Vestia Zeta</p>
+                    <p><a href="#song" class="btn btn-primary mt-3">More Info</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/gen3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Holo Heroes</h5>
+                    <p>Generasi Ketiga Hololive Indonesia yang debut pada Maret 2022</p>
+                    <p><a href="https://virtualyoutuber.fandom.com/id/wiki/Hololive#hololive_ID_Generasi_Ke-3" target="_blank" class="btn btn-primary mt-3">More Info</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <br><br><br><br>
+    <!-- Vestia Zeta -->
+    <div id="Vestia Zeta" class="Vestia Zeta p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="Vestia Zeta">
+                        <img src="assets/VZFB.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+                    <div class="text-uppercase fw-bold fs-2 text justify-content p-5">
+                        <center>
+                            <p style="color:#373737">Vestia Zeta
+                                <br>ベスティア・ゼータ</p>
+                        </center>
+                    </div>
+                    <div class="Vestia Zeta-text justify-content-">
+                        <center>
+                            <h4 style="color:#373737">Mysterious secret agent turned Vtuber, Vestia Zeta (codename: V.7)
+                                from Hololive Indonesia Gen 3! Will you help me on my mission?
+                                <br>o7 Mission: start!</h4></b>
+                            <br>
+                            <p>"Dia adalah rekrutan misterius ke-7 dari <i>The Secret Archive Unit</i> yang memiliki
+                                lisensi penuh untuk
+                                mengumpulkan data virtual.
+                                Meskipun dia adalah seorang rookie yang menjanjikan, yang juga dikenal sebagai codename
+                                V.7, dia menjadi
+                                kikuk ketika segala sesuatunya tidak berjalan sesuai dengan manual."</P>
+                            <p>"Pada mulanya, misi Zeta adalah menyusup ke dunia virtual, tetapi sekarang dia telah
+                                menemukan kenyamanan
+                                di
+                                sini. Akankah misi ini akhirnya membawanya ke takdir baru?"</p><BR>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/FbTMYv7B0Ag"
+                                title="Debut Zeta" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- talent -->
+    <div id="talent" class="talent p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="Vestia Zeta">
+                        <br><br><br><br><img src="assets/VZHD1.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+                    <div class="Vestia Zeta-text justify-content-">
+                        <center>
+                            <table border="1" cellpadding="10">
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Karakter</b></td>
+                                    <td>Agen Rahasia</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Nama Panggilan</b></td>
+                                    <td>Zeta<br>
+                                        Agen rahasia<br>
+                                        V.7<br>
+                                        Kucing</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Tanggal Debut</b></td>
+                                    <td>25 Maret 2022 (YouTube)</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Ilustrator</b></td>
+                                    <td>あるてら</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Jenis Kelamin</b></td>
+                                    <td>Perempuan</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Umur</b></td>
+                                    <td><i>Confidential</i></td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Tanggal Lahir</b></td>
+                                    <td>7 November</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Tinggi</b></td>
+                                    <td>155 cm</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Zodiak</b></td>
+                                    <td>Scorpio</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Hashtag</b></td>
+                                    <td>#VestiaZeta - General<br>
+                                        #ZecretLive - Stream talk<br>
+                                        #Zetacrylic - Fan art<br>
+                                        #DEEZeta - Memes<br>
+                                        #Zetassets - Assets</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Media Sosial</b></td>
+                                    <td>Youtube: Vestia Zeta Ch. hololive-ID<br>
+                                        Twitter: @vestiazeta<br>
+                                        Instagram: @vestiazeta<br>
+                                        TikTok: @vestiazeta</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#373737;color:azure><b>Emoji</b></td>
+                                    <td>📜</td>
+                                </tr>
+                            </table>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="Vestia Zeta">
+                        <br><br><br><br><img src="assets/VZHD4.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <b style="color: #373737">Kesukaan dan Ketidaksukaan</b>
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Vestia menyukai kucing, mempelajari hal-hal baru, <s>menyebabkan kenakalan</s>, horor dan
+                        misteri, susu,
+                        senpainya,
+                        mode dan wewangian, mengumpulkan data rahasia, hal-hal retro, menggambar, dan wahana sensasi.
+                        <br><br>Anime favoritnya adalah <i>Bleach, Blue Lock, Detective Conan, Eyeshield 21, Gitama,
+                            Haikyuu!!,
+                            Hunter x
+                            Hunter, Inazuma Eleven, Kami-sama no Iu Toori, Katekyo Hitman Reburn!, Koe no Katachi,
+                            Kuroko no
+                            Basket,
+                            Magi, One Piece, Psycho Pass., Psyren</i>, dan Manhwa Korea Solo Levelling.
+                        <br><br>Dia menyukai game FPS (termasuk Apex dan Valorant), survival horror (Outlast, Dead by
+                        Daylight), RPG
+                        (Mad Father, To the Moon), game platform (Jump King), game aksi (Mafia, GTA V), multipemain dan
+                        pesta
+                        game
+                        (Overcooked 2, Smash Bros, Mario Party Superstars), dan game simulator (Cooking Simulator,
+                        Mother
+                        Simulator).
+                        <br><br>Dia tidak suka panas, orang sussy, sayuran, cliffhangers, dan melupakan hal-hal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <b style="color: #373737">Maskot dan Penggemar</b>
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Maskotnya bernama "Bazo"</p>
+                    <img src="assets/Bazo.png" width="200" alt="Gambar_Bazo" title="Bazo, Maskot Zeta"><br>
+                    <p>Fanbase-nya secara resmi disebut "Zecretary."<br>
+                        Nama lain yang dipertimbangkan adalah "Zetaibou."<br>
+                        Sedangkan membernya disebut "Secret Unit"</p>
+                </div>
+            </div>
+        </div>
+        <div id="trivia" class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    <b style="color: #373737">Trivia</b>
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Vestia Zeta membuat
+                            perjanjian rahasia dengan para penggemarnya, menyetujui tiga syarat rahasia selama 10.000
+                            tahun: ██████████████, ████████████████████, dan <s>tidak akan membully Zeta.</s></li>
+                            <li>Dia mengklaim bahwa jika ada yang memiliki kunci gembok yang dia pakai di lehernya, orang
+                            itu dapat
+                            membuka
+                            kunci hatinya.
+                            <br>Fans berspekulasi bahwa kunci yang dipakai Hakos Baelz di lehernya dapat membuka gembok
+                            Zeta.</li>
+                        <li>Dia berencana untuk streaming zatsudan (chat stream, "Laporan Misi!"), stream seni, ulasan
+                            meme, obrolan
+                            nyaman larut malam, ASMR, dan karaoke.</li>
+                        <li>Dia juga ingin menyiarkan acara radio jazz yang mengulas barang-barang antik, kerajinan
+                            tangan,
+                            permainan,
+                            dan Q&A.</li>
+                        <li>Cita-citanya adalah menyuarakan akting dalam permainan, mengadakan konser langsung dan
+                            menari ("joget")
+                            dalam
+                            3D, tren #1 di Twitter, berkolaborasi dengan semua orang, membuat banyak orang bahagia,
+                            mendominasi
+                            dunia,
+                            mencapai 500 ribu subs, dan Master APEX.</li>
+                        <li>Vestia Zeta memiliki ilustrator yang sama dengan Yorumi Rena dan Ryu Hari dari NIJISANJI,
+                            Kurune Kokuri
+                            dari
+                            Axel-V, Yashiki Ciel dari Buisen, dan Mizuboshi Yamu.</li>
+                        <li>Dia berbicara: Indonesia, Inggris, Jepang, dan Korea.</li>
+                        <li>Dia memiliki kura-kura peliharaan ketika dia masih kecil.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- streaming -->
+    <div id="streaming" class="streaming p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-uppercase text-center fw-bold fs-2 p-5">
+                        <p style="color:#373737">streaming</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-4 shadow">
+                        <iframe width="100%" height="235" src="https://www.youtube.com/embed/WdLhFP1usMA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="streaming-title">Relax Sleep : Whisper, Ear cleaning, Ear Oil Massage </h5>
+                            <p class="streaming-subtitle">🎧 Use headphones for better stereo experience 🎧<br><br>
+                                ❤︎Timestamps<br>
+                                0:00:00 Opening<br>
+                                0:02:42 ASMR<br>
+                                1:30:07 Secret Ending<br><br>
+                                Shush, don't be noisy.<br>
+                                Relax and enjoy<br><br>
+
+                                <a href="https://www.youtube.com/live/WdLhFP1usMA?feature=share"
+                                    target="_blank">www.youtube.com/embed/WdLhFP1usMA</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-4 shadow">
+                        <iframe width="100%" height="235" src="https://www.youtube.com/embed/VODThBGv_XA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="streaming-title">【Birthday Call-In】With my friends!! uwee #ZETANISM2022</h5>
+                            <p class="streaming-subtitle">Totally not an agent investigation at all :D<BR><BR>
+
+                                ------------------------------------<BR><BR>
+                                Vestia Zeta's Birthday 2022 merch is on sale!<BR><BR>
+                                Birthday call in!!! today at 20:00 WIB☺️ Link in there!<BR><BR>
+
+
+                                <a href="https://www.youtube.com/live/VODThBGv_XA?feature=share"
+                                    target="_blank">www.youtube.com/embed/VODThBGv_XA</a><BR><BR>
+                                art by rokusketch @ twitter
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-4 shadow">
+                        <iframe width="100%" height="235" src="https://www.youtube.com/embed/T-alNwyYY8w"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="streaming-title">【POST-DEBUT TALK】So, tell me your secrets?
+                            </h5>
+                            <p class="streaming-subtitle">
+                                Starting my first mission!!!<br><br>
+                                I’ll be waiting for you!<br><br>
+                                Don’t forget to subscribe and turn the notifs on!💗<br><br>
+
+                                #holoID03 #holoID #vestiazeta<br><br>
+                                Waiting Room:<br>
+                                <a href="https://www.youtube.com/live/T-alNwyYY8w?feature=share"
+                                    target="_blank">https://www.youtube.com/embed/T-alNwyYY8w</a><br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- song -->
+    <div id="song" class="song p-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="text-uppercase text-center fw-bold fs-2 p-5">
+                    <p style="color:#373737">song</p>
+                </div>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wQ1_0oeXW6M"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Q2GSUd-rhlE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Fb7Qv36of4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer bg-dark p-3">
+        <div class="container">
+            <div class="row text-light">
+                <div class="col-6 text-lg-start text-sm-start">
+                    <a href="https://instagram.com/cleo_cpha?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                            src="assets/ig2.png" width="5%"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100024491056656" target="_blank"><img
+                            src="assets/fc.png" width="5%"></a>
+                    <a href="https://youtube.com/channel/UC4g7WrnIqIK1W-EwGQ5wmDQ" target="_blank"><img
+                            src="assets/tw2.png" width="5%"></a>
+                </div>
+                <div class="col-6 text-lg-end text-sm-end">
+                    Contact Me
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

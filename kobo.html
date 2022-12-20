@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kobo Kanaeru</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="#home">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style/style_kobo.css">
+</head>
+
+<body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="index.html"><span class="text-primary"><img
+                        src="assets/holoidl.png" width="20%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" aria-current="page" href="#talent"
+                                id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                TALENT
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="index.html">See All</a></li>
+                                <li><a class="dropdown-item" href="risu.html">Ayunda Risu</a></li>
+                                <li><a class="dropdown-item" href="yopi.html">Airani Iofifteen</a></li>
+                                <li><a class="dropdown-item" href="moona.html">Moona Hoshinova</a></li>
+                                <li><a class="dropdown-item" href="reine.html">Pavolia Reine</a></li>
+                                <li><a class="dropdown-item" href="anya.html">Anya Melfissa</a></li>
+                                <li><a class="dropdown-item" href="ollie.html">Kureiji Ollie</a></li>
+                                <li><a class="dropdown-item" href="zeta.html">Vestia Zeta</a></li>
+                                <li><a class="dropdown-item" href="kaela.html">Kaela Kovalskia</a></li>
+                                <li><a class="dropdown-item" href="kobo.html">Kobo Kanaeru</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="#Kobo Kanaeru">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="#streaming">Streaming</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fs-6" href="#song">Song</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/KKL.png" class="d-block w-100" alt="VTuber">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/KKHD1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Trivia</h5>
+                    <p>Fakta-fakta menarik terkait VTuber HoloID, Kobo Kanaeru
+                    </p>
+                    <p><a href="#trivia" class="btn btn-primary mt-3">More Info</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/KKHD4.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Original Song & Cover</h5>
+                    <p>Kumpulan <i>Original Song</i> dan Cover Kobo Kanaeru</p>
+                    <p><a href="#song" class="btn btn-primary mt-3">More Info</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/gen3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Holo Heroes</h5>
+                    <p>Generasi Ketiga Hololive Indonesia yang debut pada Maret 2022</p>
+                    <p><a href="https://virtualyoutuber.fandom.com/id/wiki/Hololive#hololive_ID_Generasi_Ke-3" target="_blank" class="btn btn-primary mt-3">More Info</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <br><br><br><br>
+    <!-- Kobo Kanaeru -->
+    <div id="Kobo Kanaeru" class="Kobo Kanaeru p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="Kobo Kanaeru">
+                        <img src="assets/KKFB.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+                    <div class="text-uppercase fw-bold fs-2 text justify-content p-5">
+                        <center>
+                            <p style="color:#51b0ec">Kobo Kanaeru
+                                <br>こぼ・かなえる
+                            </p>
+                        </center>
+                    </div>
+                    <div class="Kobo Kanaeru-text justify-content-">
+                        <center>
+                            <h4 style="color:#51b0ec">Bokobokobo-Kobo Kanaeru at your service! Let me be your sun to
+                                shine your day!
+                                Ehe! </h4></b>
+                            <br>
+                            <p>"Seorang gadis periang yang tinggal di ruangan paling atas dari sebuah mercusuar, dia
+                                sebenarnya adalah
+                                garis
+                                keturunan dari pawang hujan terkuat di daerah tersebut. Dia memiliki potensi besar untuk
+                                mengendalikan
+                                hujan,
+                                tetapi dia tidak suka melakukannya sebagai tugas.<br><br>
+                                "Untuk memenangkan kembali gelar Master Hujannya, dia perlu membuktikan kepada
+                                keluarganya bahwa dia
+                                dapat
+                                mempertahankan layanan dukun hujan mereka. Dia tidak hanya harus berlatih setiap hari,
+                                tetapi dia juga
+                                perlu
+                                mengadopsi semacam strategi pemasaran virtual untuk berhasil!"</P><BR>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/-BvizyVVhxw"
+                                title="Debut Kobo" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- talent -->
+    <div id="talent" class="talent p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="Kobo Kanaeru">
+                        <br><br><br><br><br><img src="assets/KKHD2.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+                    <div class="Kobo Kanaeru-text justify-content-">
+                        <center>
+                            <table border="1" cellpadding="10">
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Karakter</b></td>
+                                    <td>Pawang Hujan</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Nama Panggilan</b></td>
+                                    <td>Pawang Hujan<BR>
+                                        Kobokan<br>
+                                        Kobocil<br>
+                                        Kobo Tempest<br>
+                                        Demon Lord<br>
+                                        Cebo (Diri yang lain)</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Tanggal Debut</b></td>
+                                    <td>27 Maret 2022 (YouTube)</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Ilustrator</b></td>
+                                    <td>ぽんかん⑧</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Jenis Kelamin</b></td>
+                                    <td>Perempuan</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Umur</b></td>
+                                    <td><i>"I'm Legal"</i></td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Tanggal Lahir</b></td>
+                                    <td>12 Desember</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Tinggi</b></td>
+                                    <td>150 cm</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Zodiak</b></td>
+                                    <td>Sagitarius</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Hashtag</b></td>
+                                    <td>#KoboKanaeru - General<br>
+                                        #OnAeru - Stream talk<br>
+                                        #KoboCast - Announcement<br>
+                                        #AeruSeni - Fan art<br>
+                                        #Kobobrok - Memes<br>
+                                        #Kobokerz - Fans</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Media Sosial</b></td>
+                                    <td>Youtube: Kobo Kanaeru Ch. hololive-ID<br>
+                                        Twitter: @kobokanaeru<br>
+                                        Instagram: @kobokanaeru<br>
+                                        TikTok: @kobokanaeru</td>
+                                </tr>
+                                <tr>
+                                    <td style=background-color:#51b0ec;color:azure><b>Emoji</b></td>
+                                    <td>☔</td>
+                                </tr>
+                            </table>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div class="Kobo Kanaeru">
+                        <br> <br><br><br><br><img src="assets/KKHD3.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <b style="color: #51b0ec">Kesukaan dan Ketidaksukaan</b>
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Kobo suka bakso, matcha, horor, basket, cuaca hujan, nyanyi, dan semua senpainya.<br>
+                        Dia tidak suka matematika, sayuran, membaca teks panjang, berenang, dan laba-laba.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <b style="color: #51b0ec">Kepribadian</b>
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Karena perawakannya yang pendek dan tingkah lakunya yang tidak dewasa, Kobo awalnya
+                        memproyeksikan citra seorang anak yang menawan dan energik dengan kecenderungan yang aneh,
+                        meskipun pada kenyataannya dia sering bertindak seperti anak manja yang lancang yang sering
+                        menuntut pujian dan dengan bercanda menghina teman-temannya dan pemirsa serta bercanda dengan
+                        mereka. . Dia dapat dengan cepat kehilangan kesabaran ketika marah atau diprovokasi, dan juga
+                        mudah bingung, terutama ketika diberi pujian yang tulus atau dipanggil "putri". Namun, dia juga
+                        bisa agak menghormati orang lain, terutama yang jarang berinteraksi dengannya atau secara
+                        pribadi mengidolakannya.</p>
+                    <p>Dia sering dianggap sebagai salah satu anggota hololive yang paling "kekanak-kanakan" yang
+                        menginspirasi orang lain untuk memanjakannya seperti adik perempuan atau anak perempuan mereka,
+                        meskipun dia tidak segan-segan memanfaatkan hal ini untuk mendapatkan keuntungan (seringkali
+                        materi). Terlepas dari sikap "seperti gremlin" yang kekanak-kanakan, dia tidak hanya sangat
+                        berbakat dan pintar, tetapi juga mampu menunjukkan rasa manis yang tulus saat mengungkapkan rasa
+                        terima kasih dan kebahagiaannya.</p>
+                    <p>Bahasa Inggrisnya yang agak kikuk dan bahasa Jepangnya yang datar cenderung memproyeksikan citra
+                        anak yang lugu, kikuk, dan tidak tahu apa-apa, namun mereka yang mengerti bahasa Indonesia
+                        cenderung lebih memahami tingkah lakunya yang nakal dan bahasa yang tidak senonoh. Namun, karena
+                        dia semakin terbiasa berbicara dengan sesama anggota, kesenjangan antara keduanya semakin
+                        berkurang.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <b style="color: #51b0ec">Penggemar</b>
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Penggemar Kobo dikenal sebagai "Kobokers", sedangkan nama <i>membership</i>-nya disebut
+                        "Kobolonimbus".<br>
+                        Kobolonimbus adalah kombinasi dari "Kobo" dan "Kumulonimbus" (atau Cumulonimbus).</p>
+                </div>
+            </div>
+        </div>
+        <div id="trivia" class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    <b style="color: #51b0ec">Trivia</b>
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Tujuannya adalah untuk
+                            melakukan "kayang" (pose jembatan yoga) dalam 3D, untuk mencapai tonggak sejarah subscriber
+                            (100k, 500k,
+                            1m,
+                            10m dan 100m), untuk berkolaborasi dengan VTubers lain, untuk memiliki streaming dan studio
+                            rekaman yang
+                            tepat, untuk mendapatkan kuda, pergi ke Jepang, "masuk ke dalam televisi" (tampil di TV),
+                            akting suara
+                            untuk
+                            game dan anime, mendapatkan kecepatan internet yang cepat, membuat banyak lagu dan cover
+                            orisinal, dan
+                            menjadi idola terkenal.</li>
+                        <li>Dalam debutnya, dia mengumumkan bahwa rencana streaming adalah bermain game (terutama FPS
+                            dan game
+                            seluler),
+                            bicara bebas, menyanyi, belajar bahasa, ulasan, memasak ("Saya tidak bisa memasak,
+                            setidaknya saya
+                            memiliki
+                            semangat!"), ASMR, dan "Malam Jumat Bersama Kobo" (Malam Jumat Bersama Kobo).</li>
+                        <li>Selain bahasa Indonesia, Kobo berbicara bahasa Inggris "agak rusak" dan bahasa Jepang
+                            "tingkat weeb".</li>
+                        <li>Dia tahu HTML, CSS, dan JavaScript. Meskipun dia menggambarkan dirinya sebagai "masih
+                            belajar",
+                            presentasi
+                            video debutnya dibuat dalam bentuk halaman web dengan fitur yang sangat canggih termasuk
+                            animasi dan
+                            transisi CSS.</li>
+                        <li>Salah ketik di intronya mengklaim bahwa Kobo memiliki berat "40 mg" daripada 40 kg. 40kg
+                            setara dengan 40
+                            juta miligram.</li>
+                        <li>Dalam debutnya. Kobo memperdebatkan apakah akan menggunakan "Kobo" atau "Aeru" sebagai nama
+                            panggilannya.
+                            Obrolan menyarankan "Kobokan".</li>
+                        <li>Tagar seni Kobo, #AeruSeni, berarti "seni Aeru" dalam bahasa Indonesia. Namun, itu juga
+                            merupakan homonim
+                            untuk "air seni," yang berarti "air seni."</li>
+                        <li>Bagian luar jaketnya nanti transparan, seperti jas hujan. Label di jaketnya bertuliskan
+                            "Rein Shaman." Di
+                            bagian lengan jaketnya terdapat bordiran bunga melati, bunga nasional Indonesia. Bunga
+                            melati juga
+                            muncul di
+                            anting-antingnya.</li>
+                        <li>Kobo juga bisa bermain gitar. Dia juga punya biola, tapi sudah rusak.
+                        <li>Ketika Kobo memainkan game horor, dia pasti akan meminta obrolannya ke kursi belakang untuk
+                            bimbingan
+                            atau
+                            apa yang harus dilakukan selanjutnya. Dia sering lupa kata backseating dan salah menyebutnya
+                            backstabbing,
+                            backflip, backpacking, dll.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- streaming -->
+    <div id="streaming" class="streaming p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-uppercase text-center fw-bold fs-2 p-5">
+                        <p style="color:#51b0ec">streaming</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-4 shadow">
+                        <iframe width="100%" height="235" src="https://www.youtube.com/embed/6qknqtJbinw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="streaming-title">
+                                【Valorant】main sama idola rill ??​</h5>
+                            <p class="streaming-subtitle">No need for many words, let's just accompany me in
+                                This game is being streamed and monetized after receiving prior consent from © Riot
+                                Games, Inc.<br><br>
+                                ==================================<br><br>
+                                STREAM MABAR BARENG IDOLA: <BR>
+                                <a href="https://www.youtube.com/live/6qknqtJbinw?feature=share"
+                                    target="_blank">https://www.youtube.com/embed/6qknqtJbinw</a><BR><BR>
+                                @MILYHYA<BR>
+                                @renaldiputra<br>
+                                @MauMandi<br>
+                                @DanielIvann<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-4 shadow">
+                        <iframe width="100%" height="235" src="https://www.youtube.com/embed/v6cOXwwEnRE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="streaming-title">【Plants vs. Zombies】zombi【Kobo Kanaeru / hololive ID】
+                            </h5>
+                            <p class="streaming-subtitle">
+                                ======================================<br><br>
+                                This game is being streamed and monetized after receiving prior consent from © 2020
+                                Electronic Arts Inc.
+                                本ゲームは © 2020 Electronic Arts Inc. の承諾を得た上で配信・収益化を行なっております<br>
+                                ======================================<br><br>
+                                Membunuh Zombie bersama si Kipli dan kawan-kawan:<br>
+                                <a href="https://www.youtube.com/live/v6cOXwwEnRE?feature=share"
+                                    target="_blank">https://www.youtube.com/embed/v6cOXwwEnRE?feature=share</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-4 shadow">
+                        <iframe width="100%" height="235" src="https://www.youtube.com/embed/yp2DuPF53wM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="streaming-title">【Minecraft】hay ges
+                            </h5>
+                            <p class="streaming-subtitle">
+                                Bokobokobo- Kobo Kanaeru at your service! Let me be your sun to shine your day, ehe~ ;D ☔☔☔<br><br>
+                                
+                                This game is being streamed and monetized after confirming with Mojang based on the following Terms and Conditions.<br><br>
+                                ======================================<br><br>
+                                Berpetualang, bersama si Jerry~<br>
+                                Berkelana di gurun, bersama Jerry~<br><br>
+                                <a href="https://www.youtube.com/live/yp2DuPF53wM?feature=share"
+                                    target="_blank">www.youtube.com/embed/yp2DuPF53wM</a><br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- song -->
+    <div id="song" class="song p-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="text-uppercase text-center fw-bold fs-2 p-5">
+                    <p style="color:#51b0ec">song</p>
+                </div>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SF-_47-oCtk"
+                title="Original Song Kobo, Mantra Hujan" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8fLie0tmhcA"
+                title="Cover Kobo, Tondemo Wonders" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ina1fe-sssg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer bg-dark p-3">
+        <div class="container">
+            <div class="row text-light">
+                <div class="col-6 text-lg-start text-sm-start">
+                    <a href="https://instagram.com/cleo_cpha?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                            src="assets/ig2.png" width="5%"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100024491056656" target="_blank"><img
+                            src="assets/fc.png" width="5%"></a>
+                    <a href="https://youtube.com/channel/UC4g7WrnIqIK1W-EwGQ5wmDQ" target="_blank"><img
+                            src="assets/tw2.png" width="5%"></a>
+                </div>
+                <div class="col-6 text-lg-end text-sm-end">
+                    Contact Me
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
